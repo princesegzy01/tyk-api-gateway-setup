@@ -1,0 +1,27 @@
+{
+    "name" : "header-policy",
+    "allowance": 1000,
+    "rate": 1000,
+    "per": 60,
+    "expires": -1,
+    "quota_max": -1,
+    "quota_renews": 1406121006,
+    "quota_remaining": 0,
+    "quota_renewal_rate": 60,
+    "access_rights": {
+        "headers": {
+            "api_name": "headers",
+            "api_id": "headers",
+            "versions": [
+                "Default"
+            ],
+            "allowed_urls": [
+                {
+                    "url": "/1",
+                    "methods": ["GET"]
+                }
+            ]
+        }
+    },
+    "org_id": "1"
+}
